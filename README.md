@@ -4,5 +4,5 @@
 # UP
 - docker-compose up
 
-#KILL
+# KILL
 - docker-compose down
