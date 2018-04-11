@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  file_provider:
+    container_name: file_provider
+    image: szalek/file_provider
+    build: ./
+    volumes:
+      - /home/szalek/tmp/some_dir_1:/tmp/dir_1
+      - /home/szalek/tmp/some_dir_2:/tmp/dir_2
+      - /home/szalek/tmp/some_dir_3:/tmp/dir_3
